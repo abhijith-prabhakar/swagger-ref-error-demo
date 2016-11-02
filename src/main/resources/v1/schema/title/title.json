@@ -30,6 +30,9 @@
     "reservation" : {
       "$ref": "reservation.json"
     },
+    "currency" : {
+      "$ref": "../common/currency_code.json"
+    },
     "copies": {
       "type": "array",
       "description": "List of copies for this title",
