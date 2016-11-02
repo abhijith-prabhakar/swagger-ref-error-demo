@@ -23,14 +23,14 @@
       "type":"array",
       "description":"Additional details of the error",
       "items":{
-        "$ref":"./common/error_details.json"
+        "$ref":"../common/error_details.json"
       }
     },
     "links":{
       "type":"array",
       "description":"Error context specific HATEOAS links",
       "items":{
-        "$ref":"./common/link_description.json"
+        "$ref":"../common/link_description.json"
       }
     }
   },
