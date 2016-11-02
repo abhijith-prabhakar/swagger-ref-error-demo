@@ -27,8 +27,8 @@
         "type": "string"
       }
     },
-    "currency" : {
-      "$ref": "./common/currency_code.json"
+    "reservation" : {
+      "$ref": "./reservation.json"
     },
     "copies": {
       "type": "array",
