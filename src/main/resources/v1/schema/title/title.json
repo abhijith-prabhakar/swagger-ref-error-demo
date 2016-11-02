@@ -34,7 +34,7 @@
       "type": "array",
       "description": "List of copies for this title",
       "items": {
-        "$ref": "./title/copy.json"
+        "$ref": "../title/copy.json"
       }
     },
     "reservations": {
@@ -43,7 +43,7 @@
       "minItems": 1,
       "maxItems": 10,
       "items": {
-        "$ref": "./title/reservation.json"
+        "$ref": "../title/reservation.json"
       }
     },
     "datatypes": {
@@ -52,7 +52,7 @@
       "minItems": 1,
       "maxItems": 10,
       "items": {
-        "$ref": "./title/datatypes.json"
+        "$ref": "../title/datatypes.json"
       }
     }
   },
