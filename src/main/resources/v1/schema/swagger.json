@@ -2,10 +2,10 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Abhi service",
+    "title": "Swagger error service",
     "description": "A sample application to test out integration of swagger",
     "contact": {
-      "email": "abhi.predator@gmail.com"
+      "email": "testmail@gmail.com"
     }
   },
   "schemes": [

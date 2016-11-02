@@ -28,7 +28,7 @@
       }
     },
     "reservation" : {
-      "$ref": "./reservation.json"
+      "$ref": "reservation.json"
     },
     "copies": {
       "type": "array",
