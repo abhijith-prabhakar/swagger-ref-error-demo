@@ -28,7 +28,7 @@
       }
     },
     "reservation" : {
-      "$ref": "reservation.json"
+      "$ref": "./reservation.json"
     },
     "currency" : {
       "$ref": "../common/currency_code.json"
@@ -38,6 +38,14 @@
       "description": "List of copies for this title",
       "items": {
         "$ref": "../title/copy.json"
+      }
+    },
+    "media_types": {
+      "description": "different media types",
+      "type": "array",
+      "items" : {
+        "type" : "string",
+        "enum" : [ "application/pdf", "application/json" ]
       }
     },
     "reservations": {
