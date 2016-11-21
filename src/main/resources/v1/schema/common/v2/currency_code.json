@@ -1,0 +1,18 @@
+{
+    "description": "Currency code",
+    "type": "object",
+    "properties": {
+        "code": {
+            "description": "Currency code",
+            "type": "string",
+            "pattern": "\\p{Sc}\u0024\u060B"
+        },
+        "another_code": {
+            "description": "Another Currency code",
+            "type": "string"
+        },
+        "required": [
+            "code", "another_code"
+        ]
+    }
+}

@@ -30,23 +30,11 @@
     "reservation" : {
       "$ref": "./reservation.json"
     },
-    "currency" : {
-      "$ref": "../common/currency_code.json"
+    "currency_v2" : {
+      "$ref": "../common/v2/currency_code.json"
     },
-    "copies": {
-      "type": "array",
-      "description": "List of copies for this title",
-      "items": {
-        "$ref": "../title/copy.json"
-      }
-    },
-    "media_types": {
-      "description": "different media types",
-      "type": "array",
-      "items" : {
-        "type" : "string",
-        "enum" : [ "application/pdf", "application/json" ]
-      }
+    "currency_v1" : {
+      "$ref": "../common/v1/currency_code.json"
     },
     "reservations": {
       "type": "array",
@@ -55,15 +43,6 @@
       "maxItems": 10,
       "items": {
         "$ref": "../title/reservation.json"
-      }
-    },
-    "datatypes": {
-      "type": "array",
-      "description": "List of copies for this title",
-      "minItems": 1,
-      "maxItems": 10,
-      "items": {
-        "$ref": "../title/datatypes.json"
       }
     }
   },

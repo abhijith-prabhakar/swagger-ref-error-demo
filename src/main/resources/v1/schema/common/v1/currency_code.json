@@ -1,0 +1,15 @@
+{
+    "description": "Currency code",
+    "type": "object",
+    "properties": {
+        "code": {
+            "description": "Currency code",
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 3
+        },
+        "required": [
+            "code"
+        ]
+    }
+}
